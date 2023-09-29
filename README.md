@@ -7,6 +7,6 @@ This application was developed by K.C. Chan, Joe, CSA5/CS, dated September 27, 2
   
 | Version | Build | Minimum Deployments | Modified By | Modified At | Remarks |
 |---|---|---|---|---|---|
-| 1.0 | 1 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | September 27, 2022 | First Release for DSD Info Revamp |
+| 1.0.0 | 20220927 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | September 27, 2022 | First Release for DSD Info Revamp |
 |   |   |   |   |   |   |
 
