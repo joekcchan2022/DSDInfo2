@@ -1,0 +1,335 @@
+[
+ {
+   "id": 1,
+   "title": "Event",
+   "cid": 1,
+   "category": "Event",
+   "shortName": "ET",
+   "name": "Engineer Talks",
+   "path": "event/DSD_event_etalk.pdf"
+ },
+ {
+   "id": 2,
+   "title": "Event",
+   "cid": 1,
+   "category": "Event",
+   "shortName": "SCA",
+   "name": "Staff Club Activity",
+   "path": "event/DSD_event_staffclub.pdf"
+ },
+ {
+   "id": 3,
+   "title": "Event",
+   "cid": 1,
+   "category": "Event",
+   "shortName": "OE",
+   "name": "Other Event",
+   "path": "event/DSD_event_other.pdf"
+ },
+ {
+   "id": 4,
+   "title": "Organization Chart",
+   "cid": 2,
+   "category": "DSD Organization Chart",
+   "shortName": "DSD",
+   "name": "Drainage Services Department",
+   "path": "ochart/OChart_DSD.pdf"
+ },
+ {
+   "id": 5,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "CAU",
+   "name": "Contract Advisory Unit",
+   "path": "ochart/OChart_HQ_CAU.pdf"
+ },
+ {
+   "id": 6,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "DAD",
+   "name": "Departmental Administration Division",
+   "path": "ochart/OChart_HQ_DAD.pdf"
+ },
+ {
+   "id": 7,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "EU",
+   "name": "Environmental Unit",
+   "path": "ochart/OChart_HQ_EU.pdf"
+ },
+ {
+   "id": 8,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "FSS",
+   "name": "Finance and Supplies Section",
+   "path": "ochart/OChart_HQ_FSS.pdf"
+ },
+ {
+   "id": 9,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "HQU",
+   "name": "Headquarters Unit",
+   "path": "ochart/OChart_HQ_HQU.pdf"
+ },
+ {
+   "id": 10,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "ITMU",
+   "name": "Information Technology Management Unit",
+   "path": "ochart/OChart_HQ_ITMU.pdf"
+ },
+ {
+   "id": 11,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "LU",
+   "name": "Landscape Unit",
+   "path": "ochart/OChart_HQ_LU.pdf"
+ },
+ {
+   "id": 12,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "PRU",
+   "name": "Public Relations Unit",
+   "path": "ochart/OChart_HQ_PRU.pdf"
+ },
+ {
+   "id": 13,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "QA",
+   "name": "Quality Assurance",
+   "path": "ochart/OChart_HQ_QA.pdf"
+ },
+ {
+   "id": 14,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "SAU",
+   "name": "Safety Advisory Unit",
+   "path": "ochart/OChart_HQ_SAU.pdf"
+ },
+ {
+   "id": 15,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "TS1",
+   "name": "Technical Secretary 1",
+   "path": "ochart/OChart_HQ_TS1.pdf"
+ },
+ {
+   "id": 16,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "TU",
+   "name": "Training Unit",
+   "path": "ochart/OChart_HQ_TU.pdf"
+ },
+ {
+   "id": 17,
+   "title": "Organization Chart",
+   "cid": 3,
+   "category": "Organization Chart for HQ Section",
+   "shortName": "BST",
+   "name": "BIM Support Team",
+   "path": "ochart/OChart_HQ_BIM.pdf"
+ },
+ {
+   "id": 18,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "HATS",
+   "name": "Harbour Area Treatment Scheme Division",
+   "path": "ochart/OChart_HATS.pdf"
+ },
+ {
+   "id": 19,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "SM",
+   "name": "System Management Division",
+   "path": "ochart/OChart_SMD.pdf"
+ },
+ {
+   "id": 20,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "HKI",
+   "name": "Hong Kong & Islands Division",
+   "path": "ochart/OChart_HKI.pdf"
+ },
+ {
+   "id": 21,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "MS",
+   "name": "Mainland South Division",
+   "path": "ochart/OChart_MS.pdf"
+ },
+ {
+   "id": 22,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "MN",
+   "name": "Mainland North Division",
+   "path": "ochart/OChart_MN.pdf"
+ },
+ {
+   "id": 23,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "LD",
+   "name": "Land Drainage Division",
+   "path": "ochart/OChart_LD.pdf"
+ },
+ {
+   "id": 24,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "PR",
+   "name": "Planning & Rehabilitation Division",
+   "path": "ochart/OChart_PRD.pdf"
+ },
+ {
+   "id": 25,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "CM",
+   "name": "Consultants Management Division",
+   "path": "ochart/OChart_CM.pdf"
+ },
+ {
+   "id": 26,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "PM",
+   "name": "Project Management Division",
+   "path": "ochart/OChart_PM.pdf"
+ },
+ {
+   "id": 27,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "SD",
+   "name": "Special Duty Division",
+   "path": "ochart/OChart_SD.pdf"
+ },
+ {
+   "id": 28,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "SP",
+   "name": "Sewage Projects Division",
+   "path": "ochart/OChart_SP.pdf"
+ },
+ {
+   "id": 29,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "DP",
+   "name": "Drainage Projects Division",
+   "path": "ochart/OChart_DP.pdf"
+ },
+ {
+   "id": 30,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "CP",
+   "name": "Cavern Projects Division",
+   "path": "ochart/OChart_CP.pdf"
+ },
+ {
+   "id": 31,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "EMP",
+   "name": "Electrical & Mechanical Projects Division",
+   "path": "ochart/OChart_EMP.pdf"
+ },
+ {
+   "id": 32,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "ST1",
+   "name": "Sewage Treatment Division 1",
+   "path": "ochart/OChart_ST1.pdf"
+ },
+ {
+   "id": 33,
+   "title": "Organization Chart",
+   "cid": 4,
+   "category": "Organization Chart for Division",
+   "shortName": "ST2",
+   "name": "Sewage Treatment Division 2",
+   "path": "ochart/OChart_ST2.pdf"
+ },
+ {
+   "id": 34,
+   "title": "Vehicle Reservation",
+   "cid": 5,
+   "category": "Vehicle Reservation",
+   "shortName": "TD",
+   "name": "Today",
+   "path": "vrs/VRS_today.pdf"
+ },
+ {
+   "id": 35,
+   "title": "Vehicle Reservation",
+   "cid": 5,
+   "category": "Vehicle Reservation",
+   "shortName": "TW",
+   "name": "Following Days in This Week",
+   "path": "vrs/VRS_this_week.pdf"
+ },
+ {
+   "id": 36,
+   "title": "Vehicle Reservation",
+   "cid": 5,
+   "category": "Vehicle Reservation",
+   "shortName": "NW",
+   "name": "Next Week",
+   "path": "vrs/VRS_next_week.pdf"
+ },
+ {
+   "id": 37,
+   "title": "Vehicle Reservation",
+   "cid": 5,
+   "category": "Vehicle Reservation",
+   "shortName": "DI",
+   "name": "Driver Information",
+   "path": "vrs/VRS_car_summary.pdf"
+ }
+]
