@@ -22,7 +22,7 @@ struct ServiceDetailView: View {
 }
 
 struct ServiceDetailView_Previews: PreviewProvider {
-    static let url: String = "https://m.dsd.gov.hk:8447/mdsdinfo/ochart/OChart_DSD.pdf"
+    static let url: String = "https://m.dsd.gov.hk:18447/mdsdinfo/ochart/OChart_DSD.pdf"
     static var previews: some View {
         ServiceDetailView(serviceName: "Hello World", urlPath: url)
     }

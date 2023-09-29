@@ -13,7 +13,7 @@ struct ServiceList: View {
     var selectedTitle: String
     var selectedServices: [Service]
     
-    let apiPrefixURL: String = "https://m.dsd.gov.hk:8447/mdsdinfo/"
+    let apiPrefixURL: String = "https://m.dsd.gov.hk:18447/mdsdinfo/"
                     
     var body: some View {
         if selectedTitle == "Organization Chart" {
