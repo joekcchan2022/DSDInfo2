@@ -10,5 +10,6 @@ This application was developed by K.C. Chan, Joe, CSA5/CS, dated September 27, 2
 | 1.0.0 | 20220927 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | September 27, 2022 | First Release for DSD Info Revamp |
 | 1.0.0(a) | 20230929 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | September 29, 2023 | Proof-of-concepts for Reverse Proxy Migration |
 | 1.0.1 | 20230929 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | September 29, 2023 | Revert | 
+| 1.0.2 | 20231113 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | November 13, 2023 | Merging TU and QA into QATU |
 |   |   |   |   |   |   |
 
