@@ -12,5 +12,6 @@ This application was developed by K.C. Chan, Joe, CSA5/CS, dated September 27, 2
 | 1.0.1 | 20230929 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | September 29, 2023 | Revert | 
 | 1.0.2 | 20231113 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | November 13, 2023 | Merging TU and QA into QATU.  Built ipa for Distribution |
 | 1.0.2 | 20231213 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | December 13, 2023 | Resurrection to the latest version |
+| 1.0.3 | 20231213 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | December 13, 2023 | Updated BCM |
 |   |   |   |   |   |   |
 
