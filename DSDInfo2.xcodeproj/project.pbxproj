@@ -11,6 +11,7 @@
 		356447E828D964C8001A1866 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 356447E728D964C8001A1866 /* Root.plist */; };
 		3569F2FD28DB130100DA47B1 /* UIDevice+ModelName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569F2FC28DB130100DA47B1 /* UIDevice+ModelName.swift */; };
 		3591668B28D846930058E05D /* ContentLengthPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3591668A28D846930058E05D /* ContentLengthPreference.swift */; };
+		35C960602C4FA07A0037ABD5 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C9605F2C4FA07A0037ABD5 /* LaunchScreenView.swift */; };
 		35E403B228D45C7D00FE142A /* DSDInfo2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E403A228D45C7D00FE142A /* DSDInfo2App.swift */; };
 		35E403B628D45C7D00FE142A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E403A428D45C7D00FE142A /* Assets.xcassets */; };
 		35E403C228D45D0800FE142A /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E403C128D45D0800FE142A /* PDFKit.framework */; };
@@ -33,6 +34,7 @@
 		356447E728D964C8001A1866 /* Root.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
 		3569F2FC28DB130100DA47B1 /* UIDevice+ModelName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+ModelName.swift"; sourceTree = "<group>"; };
 		3591668A28D846930058E05D /* ContentLengthPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLengthPreference.swift; sourceTree = "<group>"; };
+		35C9605F2C4FA07A0037ABD5 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		35E403A228D45C7D00FE142A /* DSDInfo2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDInfo2App.swift; sourceTree = "<group>"; };
 		35E403A428D45C7D00FE142A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E403A928D45C7D00FE142A /* DSDInfo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSDInfo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +135,7 @@
 				35E403D828D45D8B00FE142A /* ServiceDetailView.swift */,
 				35E403D928D45D8B00FE142A /* ServiceList.swift */,
 				35E403DB28D45D8B00FE142A /* ServiceRow.swift */,
+				35C9605F2C4FA07A0037ABD5 /* LaunchScreenView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,7 +168,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					35E403A828D45C7D00FE142A = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -219,6 +222,7 @@
 				35E403E228D45D8B00FE142A /* ContentView.swift in Sources */,
 				3569F2FD28DB130100DA47B1 /* UIDevice+ModelName.swift in Sources */,
 				35E403E028D45D8B00FE142A /* ServiceList.swift in Sources */,
+				35C960602C4FA07A0037ABD5 /* LaunchScreenView.swift in Sources */,
 				35E403B228D45C7D00FE142A /* DSDInfo2App.swift in Sources */,
 				3591668B28D846930058E05D /* ContentLengthPreference.swift in Sources */,
 				35E403CE28D45D3E00FE142A /* LoadData.swift in Sources */,
@@ -235,6 +239,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon v1";
 				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=*]" = "";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -268,6 +273,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -297,6 +303,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon v1";
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -330,6 +337,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -352,17 +360,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20240723;
 				DEVELOPMENT_TEAM = 27GV82U37B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DSDInfo2;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -388,17 +398,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 20240723;
 				DEVELOPMENT_TEAM = TKNQ9AL875;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DSDInfo2;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

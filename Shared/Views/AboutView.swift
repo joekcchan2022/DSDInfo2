@@ -57,7 +57,8 @@ extension Bundle {
 
 struct AboutView: View {
     @Environment(\.presentationMode) var presentationMode
-    
+    @Environment(\.colorScheme) var colorScheme
+
     var body: some View {
         NavigationView() {
             VStack {
@@ -65,7 +66,7 @@ struct AboutView: View {
                     HStack {
                         VStack {
                             Spacer()
-                            Image("AppIcon 256.png")
+                            Image(colorScheme == .light ? "DSDInfo2 Light" : colorScheme == .dark ? "DSDInfo2 Dark" : "DSDInfo2 Tinted")
                                 .resizable()
                                 .frame(width: 128, height: 128)
                                 .cornerRadius(16)
@@ -104,7 +105,7 @@ struct AboutView: View {
                         .frame(maxWidth: .infinity, alignment: .center)
                     }
 
-                Text("K.C. Chan, Joe, CSA5/CS @ ITMU")
+                Text("K.C. Chan, Joe, CSSA7/CS @ ITMU")
                     .fontWeight(.ultraLight)
                     .foregroundColor(Color(UIColor.systemGroupedBackground))
             }
