@@ -13,6 +13,6 @@ This application was developed by K.C. Chan, Joe, CSA5/CS, dated September 27, 2
 | 1.0.2 | 20231113 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | November 13, 2023 | Merging TU and QA into QATU.  Built ipa for Distribution |
 | 1.0.2 | 20231213 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | December 13, 2023 | Resurrection to the latest version |
 | 1.0.3 | 20231213 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | December 13, 2023 | Updated BCM |
-| 1.0.4 | 20240723 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | July 23, 2024 | App icons for iOS 18 |
+| 1.0.4 | 20240725 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | July 23, 2024 | App icons for iOS 18 |
 |   |   |   |   |   |   |
 
