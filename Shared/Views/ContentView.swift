@@ -19,7 +19,7 @@ struct ContentView: View {
                 .tabItem {
                     Image(systemName: "star.circle.fill")
                         .foregroundColor(Color(UIColor.systemFill))
-                    Text("DSDInfo2")}
+                    Text("DSDInfo")}
                 .tag(Tab.dsdinfo2)
             ServiceList(selectedTitle: "Event", selectedServices: serviceData.filterServices(selectedTitle: "Event"))
                 .tabItem {

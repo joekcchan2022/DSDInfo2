@@ -71,7 +71,7 @@ struct AboutView: View {
                                 .frame(width: 128, height: 128)
                                 .cornerRadius(16)
                             Spacer()
-                            Text("DSDInfo2")
+                            Text("DSDInfo")
                                 .font(.title2)
                             Spacer()
                         }

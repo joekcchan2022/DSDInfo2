@@ -22,7 +22,7 @@ struct LaunchScreenView: View {
                     .frame(width: 200, height: 200, alignment: .leading)
                 Divider()
                     .hidden()
-                Text("DSDInfo2")
+                Text("DSDInfo")
                     .font(.largeTitle)
                     .lineLimit(1)
                     .foregroundColor(.primary)

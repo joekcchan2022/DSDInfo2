@@ -15,6 +15,10 @@ This application was developed by K.C. Chan, Joe, CSA5/CS, dated September 27, 2
 | 1.0.3 | 20231213 | iOS 14.0 | K.C. Chan, Joe, CSA5/CS | December 13, 2023 | Updated BCM |
 | 1.0.4 | 20240725 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | July 23, 2024 | App icons for iOS 18 |
 | 1.0.5 | 20240912 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | September 12, 2025 | Remove of Special Duty Division |
-| 1.0.6 | 20250609 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | June 9, 2025 | Updated Provisioning Profile |
+| 1.1.0 | 20250609 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | June 9, 2025 | Updated Provisioning Profile, Rename DSDInfo2 as DSDInfo |
 |   |   |   |   |   |   |
+
+# About Screen
+
+![About Screen](img/dsdinfo_1.1.0.png = 200x)
 

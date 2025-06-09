@@ -18,7 +18,7 @@ struct DSDInfo2View: View {
         NavigationView() {
             List {
                 VStack {
-                    Text("DSDInfo2 provides the mobile version of the following:")
+                    Text("DSDInfo provides the mobile version of the following:")
                         .multilineTextAlignment(.leading)
                         .foregroundColor(Color(UIColor.systemGray))
                         .font(.callout)
@@ -103,7 +103,7 @@ struct DSDInfo2View: View {
               }
             }
             //        .listStyle(InsetGroupedListStyle())
-            .navigationTitle("DSDInfo2")
+            .navigationTitle("DSDInfo")
             .navigationBarTitleDisplayMode(.automatic)
 //            .navigationBarBackButtonHidden(false)
             /* Return Button on Toolbar */
