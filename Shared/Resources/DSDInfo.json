@@ -247,21 +247,12 @@
     "title": "Organization Chart",
     "cid": 4,
     "category": "Organization Chart for Division",
-    "shortName": "SD",
-    "name": "Special Duty Division",
-    "path": "ochart/OChart_SD.pdf"
-  },
-  {
-    "id": 29,
-    "title": "Organization Chart",
-    "cid": 4,
-    "category": "Organization Chart for Division",
     "shortName": "SP",
     "name": "Sewage Projects Division",
     "path": "ochart/OChart_SP.pdf"
   },
   {
-    "id": 30,
+    "id": 29,
     "title": "Organization Chart",
     "cid": 4,
     "category": "Organization Chart for Division",
@@ -270,7 +261,7 @@
     "path": "ochart/OChart_DP.pdf"
   },
   {
-    "id": 31,
+    "id": 30,
     "title": "Organization Chart",
     "cid": 4,
     "category": "Organization Chart for Division",
@@ -279,7 +270,7 @@
     "path": "ochart/OChart_CP.pdf"
   },
   {
-    "id": 32,
+    "id": 31,
     "title": "Organization Chart",
     "cid": 4,
     "category": "Organization Chart for Division",
@@ -288,7 +279,7 @@
     "path": "ochart/OChart_EMP.pdf"
   },
   {
-    "id": 33,
+    "id": 32,
     "title": "Organization Chart",
     "cid": 4,
     "category": "Organization Chart for Division",
@@ -297,7 +288,7 @@
     "path": "ochart/OChart_ST1.pdf"
   },
   {
-    "id": 34,
+    "id": 33,
     "title": "Organization Chart",
     "cid": 4,
     "category": "Organization Chart for Division",
@@ -306,7 +297,7 @@
     "path": "ochart/OChart_ST2.pdf"
   },
   {
-    "id": 35,
+    "id": 34,
     "title": "Vehicle Reservation",
     "cid": 5,
     "category": "Vehicle Reservation",
@@ -315,7 +306,7 @@
     "path": "vrs/VRS_today.pdf"
   },
   {
-    "id": 36,
+    "id": 35,
     "title": "Vehicle Reservation",
     "cid": 5,
     "category": "Vehicle Reservation",
@@ -324,7 +315,7 @@
     "path": "vrs/VRS_this_week.pdf"
   },
   {
-    "id": 37,
+    "id": 36,
     "title": "Vehicle Reservation",
     "cid": 5,
     "category": "Vehicle Reservation",
@@ -333,7 +324,7 @@
     "path": "vrs/VRS_next_week.pdf"
   },
   {
-    "id": 38,
+    "id": 37,
     "title": "Vehicle Reservation",
     "cid": 5,
     "category": "Vehicle Reservation",
