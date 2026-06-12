@@ -1,6 +1,6 @@
 //
 //  LoadData.swift
-//  DSDInfo2
+//  DSDInfo
 //
 //  Created by Joe Chan on 15/9/2022.
 //

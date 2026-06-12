@@ -1,6 +1,6 @@
 //
 //  UIDevice+ModelName.swift
-//  DSDInfo2 (iOS)
+//  DSDInfo (iOS)
 //
 //  Created by Joe Chan on 20/9/2022.
 //

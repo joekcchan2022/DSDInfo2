@@ -1,6 +1,6 @@
 //
 //  ContentLengthPreference.swift
-//  DSDInfo2 (iOS)
+//  DSDInfo (iOS)
 //
 //  Created by Joe Chan on 19/9/2022.
 //

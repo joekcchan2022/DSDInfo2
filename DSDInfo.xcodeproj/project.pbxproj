@@ -12,7 +12,7 @@
 		3569F2FD28DB130100DA47B1 /* UIDevice+ModelName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569F2FC28DB130100DA47B1 /* UIDevice+ModelName.swift */; };
 		3591668B28D846930058E05D /* ContentLengthPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3591668A28D846930058E05D /* ContentLengthPreference.swift */; };
 		35C960602C4FA07A0037ABD5 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C9605F2C4FA07A0037ABD5 /* LaunchScreenView.swift */; };
-		35E403B228D45C7D00FE142A /* DSDInfo2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E403A228D45C7D00FE142A /* DSDInfo2App.swift */; };
+		35E403B228D45C7D00FE142A /* DSDInfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E403A228D45C7D00FE142A /* DSDInfoApp.swift */; };
 		35E403B628D45C7D00FE142A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E403A428D45C7D00FE142A /* Assets.xcassets */; };
 		35E403C228D45D0800FE142A /* PDFKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E403C128D45D0800FE142A /* PDFKit.framework */; };
 		35E403C528D45D2000FE142A /* DSDInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 35E403C328D45D2000FE142A /* DSDInfo.json */; };
@@ -26,7 +26,7 @@
 		35E403E428D45D8B00FE142A /* ServiceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E403DB28D45D8B00FE142A /* ServiceRow.swift */; };
 		35E403E628D45D8B00FE142A /* PDFKitRepresentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E403DC28D45D8B00FE142A /* PDFKitRepresentedView.swift */; };
 		35E403E828D45D8B00FE142A /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E403DD28D45D8B00FE142A /* AboutView.swift */; };
-		35FACC4628D7FC610071A511 /* DSDInfo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FACC4528D7FC610071A511 /* DSDInfo2View.swift */; };
+		35FACC4628D7FC610071A511 /* DSDInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FACC4528D7FC610071A511 /* DSDInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +35,9 @@
 		3569F2FC28DB130100DA47B1 /* UIDevice+ModelName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+ModelName.swift"; sourceTree = "<group>"; };
 		3591668A28D846930058E05D /* ContentLengthPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLengthPreference.swift; sourceTree = "<group>"; };
 		35C9605F2C4FA07A0037ABD5 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
-		35E403A228D45C7D00FE142A /* DSDInfo2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDInfo2App.swift; sourceTree = "<group>"; };
+		35D596972FDAB28B00309034 /* DSDInfo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSDInfo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E403A228D45C7D00FE142A /* DSDInfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDInfoApp.swift; sourceTree = "<group>"; };
 		35E403A428D45C7D00FE142A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		35E403A928D45C7D00FE142A /* DSDInfo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSDInfo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E403C128D45D0800FE142A /* PDFKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PDFKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/PDFKit.framework; sourceTree = DEVELOPER_DIR; };
 		35E403C328D45D2000FE142A /* DSDInfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DSDInfo.json; sourceTree = "<group>"; };
 		35E403C428D45D2000FE142A /* DSDInfo.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DSDInfo.csv; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		35E403DB28D45D8B00FE142A /* ServiceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceRow.swift; sourceTree = "<group>"; };
 		35E403DC28D45D8B00FE142A /* PDFKitRepresentedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFKitRepresentedView.swift; sourceTree = "<group>"; };
 		35E403DD28D45D8B00FE142A /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		35FACC4528D7FC610071A511 /* DSDInfo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDInfo2View.swift; sourceTree = "<group>"; };
+		35FACC4528D7FC610071A511 /* DSDInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSDInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +71,15 @@
 				35E403A128D45C7D00FE142A /* Shared */,
 				35E403AA28D45C7D00FE142A /* Products */,
 				35E403C028D45D0800FE142A /* Frameworks */,
+				356447E728D964C8001A1866 /* Root.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		35E403A128D45C7D00FE142A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				356447E728D964C8001A1866 /* Root.plist */,
 				35E403A428D45C7D00FE142A /* Assets.xcassets */,
-				35E403A228D45C7D00FE142A /* DSDInfo2App.swift */,
+				35E403A228D45C7D00FE142A /* DSDInfoApp.swift */,
 				354D087028D4624100050E49 /* Launch Screen.storyboard */,
 				35E403D628D45D4400FE142A /* Models */,
 				35E403C928D45D2E00FE142A /* Resources */,
@@ -91,7 +91,7 @@
 		35E403AA28D45C7D00FE142A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35E403A928D45C7D00FE142A /* DSDInfo2.app */,
+				35D596972FDAB28B00309034 /* DSDInfo2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,7 +127,7 @@
 		35E403D728D45D5300FE142A /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				35FACC4528D7FC610071A511 /* DSDInfo2View.swift */,
+				35FACC4528D7FC610071A511 /* DSDInfoView.swift */,
 				3591668A28D846930058E05D /* ContentLengthPreference.swift */,
 				35E403DD28D45D8B00FE142A /* AboutView.swift */,
 				35E403DA28D45D8B00FE142A /* ContentView.swift */,
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		35E403A828D45C7D00FE142A /* DSDInfo2 (iOS) */ = {
+		35E403A828D45C7D00FE142A /* DSDInfo (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 35E403BA28D45C7D00FE142A /* Build configuration list for PBXNativeTarget "DSDInfo2 (iOS)" */;
+			buildConfigurationList = 35E403BA28D45C7D00FE142A /* Build configuration list for PBXNativeTarget "DSDInfo (iOS)" */;
 			buildPhases = (
 				35E403A528D45C7D00FE142A /* Sources */,
 				35E403A628D45C7D00FE142A /* Frameworks */,
@@ -155,9 +155,9 @@
 			);
 			dependencies = (
 			);
-			name = "DSDInfo2 (iOS)";
+			name = "DSDInfo (iOS)";
 			productName = "DSDInfo2 (iOS)";
-			productReference = 35E403A928D45C7D00FE142A /* DSDInfo2.app */;
+			productReference = 35D596972FDAB28B00309034 /* DSDInfo2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,6 +167,10 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+					"New-1",
+				);
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
@@ -188,7 +192,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				35E403A828D45C7D00FE142A /* DSDInfo2 (iOS) */,
+				35E403A828D45C7D00FE142A /* DSDInfo (iOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -215,7 +219,7 @@
 			files = (
 				35E403E628D45D8B00FE142A /* PDFKitRepresentedView.swift in Sources */,
 				35E403D228D45D3E00FE142A /* ServiceData.swift in Sources */,
-				35FACC4628D7FC610071A511 /* DSDInfo2View.swift in Sources */,
+				35FACC4628D7FC610071A511 /* DSDInfoView.swift in Sources */,
 				35E403E828D45D8B00FE142A /* AboutView.swift in Sources */,
 				35E403E428D45D8B00FE142A /* ServiceRow.swift in Sources */,
 				35E403DE28D45D8B00FE142A /* ServiceDetailView.swift in Sources */,
@@ -223,7 +227,7 @@
 				3569F2FD28DB130100DA47B1 /* UIDevice+ModelName.swift in Sources */,
 				35E403E028D45D8B00FE142A /* ServiceList.swift in Sources */,
 				35C960602C4FA07A0037ABD5 /* LaunchScreenView.swift in Sources */,
-				35E403B228D45C7D00FE142A /* DSDInfo2App.swift in Sources */,
+				35E403B228D45C7D00FE142A /* DSDInfoApp.swift in Sources */,
 				3591668B28D846930058E05D /* ContentLengthPreference.swift in Sources */,
 				35E403CE28D45D3E00FE142A /* LoadData.swift in Sources */,
 				35E403D428D45D3E00FE142A /* Service.swift in Sources */,
@@ -363,7 +367,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 20260611;
+				CURRENT_PROJECT_VERSION = 20260612;
 				DEVELOPMENT_TEAM = TKNQ9AL875;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -382,7 +386,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = hksarg.dsd.dsdinfo;
 				PRODUCT_NAME = DSDInfo2;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -401,7 +405,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 20260611;
+				CURRENT_PROJECT_VERSION = 20260612;
 				DEVELOPMENT_TEAM = TKNQ9AL875;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -420,7 +424,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = hksarg.dsd.dsdinfo;
 				PRODUCT_NAME = DSDInfo2;
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -444,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		35E403BA28D45C7D00FE142A /* Build configuration list for PBXNativeTarget "DSDInfo2 (iOS)" */ = {
+		35E403BA28D45C7D00FE142A /* Build configuration list for PBXNativeTarget "DSDInfo (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				35E403BB28D45C7D00FE142A /* Debug */,

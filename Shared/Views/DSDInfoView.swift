@@ -1,13 +1,13 @@
 //
-//  DSDInfo2View.swift
-//  DSDInfo2 (iOS)
+//  DSDInfoView.swift
+//  DSDInfo (iOS)
 //
 //  Created by Joe Chan on 19/9/2022.
 //
 
 import SwiftUI
     
-struct DSDInfo2View: View {
+struct DSDInfoView: View {
     @EnvironmentObject var serviceData : ServiceData
     @Binding var tabSelection : Tab
 

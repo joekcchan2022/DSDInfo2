@@ -1,6 +1,6 @@
 //
 //  LaunchScreenView.swift
-//  DSDInfo2 (iOS)
+//  DSDInfo (iOS)
 //
 //  Created by Joe Chan on 23/7/2024.
 //
@@ -16,7 +16,7 @@ struct LaunchScreenView: View {
             Spacer()
             Spacer()
             Group {
-                Image(colorScheme == .light ? "DSDInfo2 Light" : colorScheme == .dark ? "DSDInfo2 Dark" : "DSDInfo2 Tinted")
+                Image(colorScheme == .light ? "DSDInfo Light" : colorScheme == .dark ? "DSDInfo Dark" : "DSDInfo Tinted")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 200, height: 200, alignment: .leading)

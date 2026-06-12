@@ -6,7 +6,7 @@
 	<string>Root</string>
 	<key>PreferenceSpecifiers</key>
 	<array>
-			<dict>
+		<dict>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 			<key>Title</key>
@@ -20,7 +20,7 @@
 			<key>Key</key>
 			<string>appName</string>
 			<key>DefaultValue</key>
-			<string>DSDInfo2</string>
+			<string>DSDInfo</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>

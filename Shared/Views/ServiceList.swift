@@ -1,6 +1,6 @@
 //
 //  ServiceList.swift
-//  DSDInfo2
+//  DSDInfo
 //
 //  Created by Joe Chan on 16/9/2022.
 //

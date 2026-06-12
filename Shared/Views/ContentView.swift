@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  DSDInfo2
+//  DSDInfo
 //
 //  Created by Joe Chan on 14/9/2022.
 //
@@ -11,16 +11,16 @@ import PDFKit
 struct ContentView: View {
     @EnvironmentObject var serviceData : ServiceData
     
-    @State var tabSelection  : Tab = Tab.dsdinfo2
+    @State var tabSelection  : Tab = Tab.dsdinfo
 
     var body: some View {
         TabView(selection: $tabSelection) {
-            DSDInfo2View(tabSelection: $tabSelection)
+            DSDInfoView(tabSelection: $tabSelection)
                 .tabItem {
                     Image(systemName: "star.circle.fill")
                         .foregroundColor(Color(UIColor.systemFill))
                     Text("DSDInfo")}
-                .tag(Tab.dsdinfo2)
+                .tag(Tab.dsdinfo)
             ServiceList(selectedTitle: "Event", selectedServices: serviceData.filterServices(selectedTitle: "Event"))
                 .tabItem {
                     Image(systemName: "calendar.circle.fill")

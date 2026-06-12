@@ -1,6 +1,6 @@
 //
 //  AboutView.swift
-//  DSDInfo2
+//  DSDInfo
 //
 //  Created by Joe Chan on 15/9/2022.
 //
@@ -66,7 +66,7 @@ struct AboutView: View {
                     HStack {
                         VStack {
                             Spacer()
-                            Image(colorScheme == .light ? "DSDInfo2 Light" : colorScheme == .dark ? "DSDInfo2 Dark" : "DSDInfo2 Tinted")
+                            Image(colorScheme == .light ? "DSDInfo Light" : colorScheme == .dark ? "DSDInfo Dark" : "DSDInfo Tinted")
                                 .resizable()
                                 .frame(width: 128, height: 128)
                                 .cornerRadius(16)

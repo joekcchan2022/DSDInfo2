@@ -1,6 +1,6 @@
 //
 //  Service.swift
-//  DSDInfo2
+//  DSDInfo
 //
 //  Created by Joe Chan on 15/9/2022.
 //
@@ -8,7 +8,7 @@
 import Foundation
 
 enum Tab: Int, Codable {
-    case dsdinfo2
+    case dsdinfo
     case event
     case orgchart
     case vrs
