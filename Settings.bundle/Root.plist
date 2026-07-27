@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Device Identifier</string>
+			<key>Key</key>
+			<string>device_identifier</string>
+			<key>DefaultValue</key>
+			<string>N/A</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>App Information</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Server Environment</string>
+			<key>Key</key>
+			<string>server_environment</string>
+			<key>DefaultValue</key>
+			<string>N/A</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Version Number</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Current Version</string>
+			<key>Key</key>
+			<string>app_version</string>
+			<key>DefaultValue</key>
+			<string>N/A</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Build Number</string>
+			<key>Key</key>
+			<string>app_build_number</string>
+			<key>DefaultValue</key>
+			<string>N/A</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Minimum iOS Version</string>
+			<key>Key</key>
+			<string>minimum_ios_version</string>
+			<key>DefaultValue</key>
+			<string>N/A</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Environment Information</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Latest iOS Release</string>
+			<key>Key</key>
+			<string>latest_ios_version</string>
+			<key>DefaultValue</key>
+			<string>N/A</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>Latest iPadOS Release</string>
+			<key>Titles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>Key</key>
+			<string>latest_ipados_version</string>
+			<key>DefaultValue</key>
+			<string>N/A</string>
+		</dict>
+	</array>
+</dict>
+</plist>
