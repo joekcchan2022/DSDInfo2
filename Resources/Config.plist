@@ -62,7 +62,7 @@
 		<key>searchBar</key>
 		<false/>
 		<key>serverEnvironment</key>
-		<string>uat</string>
+		<string>production</string>
 		<key>vehicleReservationReportsApiPath</key>
 		<string>/api/cifs/vrs</string>
 	</dict>
