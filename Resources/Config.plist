@@ -5,35 +5,35 @@
 	<key>Development</key>
 	<dict>
 		<key>baseApiUrl</key>
-		<string>https://m.dsd.gov.hk:44303</string>
+		<string>https://m.dsd.gov.hk:4348</string>
 		<key>mutualAuthenticationCertificateFile</key>
-		<string>mtls.m.dsd.gov.hk.client.20250723</string>
+		<string>client.m.dsd.gov.hk.20260622</string>
 		<key>mutualAuthenticationCertificateExtension</key>
 		<string>pfx</string>
 		<key>mutualAuthenticationCertificatePassword</key>
-		<string>ektwTcZ5HCns</string>
+		<string>Awp9vYKJ5HaF</string>
 	</dict>
 	<key>UAT</key>
 	<dict>
 		<key>baseApiUrl</key>
-		<string>https://m.dsd.gov.hk:44301</string>
+		<string>https://m.dsd.gov.hk:4348</string>
 		<key>mutualAuthenticationCertificateFile</key>
-		<string>mtls.devptl03.client.20251126</string>
+		<string>client.m.dsd.gov.hk.20260622</string>
 		<key>mutualAuthenticationCertificateExtension</key>
 		<string>pfx</string>
 		<key>mutualAuthenticationCertificatePassword</key>
-		<string>DuqGzCakyjY6</string>
+		<string>Awp9vYKJ5HaF</string>
 	</dict>
 	<key>Production</key>
 	<dict>
 		<key>baseApiUrl</key>
-		<string>https://m.dsd.gov.hk:8446</string>
+		<string>https://m.dsd.gov.hk:4449</string>
 		<key>mutualAuthenticationCertificateFile</key>
-		<string>mtls.p12</string>
+		<string>client.m.dsd.gov.hk.20260622</string>
 		<key>mutualAuthenticationCertificateExtension</key>
-		<string>p12</string>
+		<string>pfx</string>
 		<key>mutualAuthenticationCertificatePassword</key>
-		<string>mtls_passphrase.txt</string>
+		<string>Awp9vYKJ5HaF</string>
 	</dict>
 	<key>Global</key>
 	<dict>
@@ -58,13 +58,13 @@
 		<key>enableSheetPresentation</key>
 		<false/>
 		<key>organizationChartApiPath</key>
-		<string>/api/sharepoint/organizationcharts/</string>
+		<string>/api/sharepoint/organizationcharts</string>
 		<key>searchBar</key>
 		<false/>
 		<key>serverEnvironment</key>
 		<string>uat</string>
 		<key>vehicleReservationReportsApiPath</key>
-		<string>/api/cifs/vrs/</string>
+		<string>/api/cifs/vrs</string>
 	</dict>
 </dict>
 </plist>

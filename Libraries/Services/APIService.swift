@@ -54,6 +54,7 @@ class APIService {
             } catch {
                 print("Decoding error: \(error)")
                 if let jsonString = String(data: data, encoding: .utf8) {
+                    print("URL: \(urlString)")
                     print("Response JSON: \(jsonString)")
                 }
                 completion(.failure(error))
