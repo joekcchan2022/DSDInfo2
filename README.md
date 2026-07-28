@@ -18,6 +18,7 @@ This application was developed by K.C. Chan, Joe, CSA5/CS, dated September 27, 2
 | 1.1.0 | 20250610 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | June 10, 2025 | Updated Provisioning Profile, Rename DSDInfo2 as DSDInfo |
 | 1.1.2 | 20260612 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | June 12, 2026 | Renewed Distribution Certificate and Provisioning Profile |
 | 1.3.0 | 20260130 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | January 30, 2026 |  SharePoint Subscription Edition (SPSE), Liquid Glass GUI, Mutual Authentication, Contrast Control |
+| 1.3.2 | 20260728 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | July 28, 2026 | Provisioning Profile Updated |
 |   |   |   |   |   |   |
 
 # About Screen
