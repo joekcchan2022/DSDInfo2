@@ -12,11 +12,11 @@ func getColors(for contrast: Double, theme: ColorTheme) -> (backgroundColor: Col
     case .blue:
         switch Int(contrast) {
         case 100: return (Color("DSD Blue 100%"), Color(UIColor.systemGroupedBackground))
-        case 75: return (Color("DSD Blue 75%"), Color(UIColor.systemGroupedBackground))
-        case 50: return (Color("DSD Blue 50%"), Color(UIColor.systemGroupedBackground))
-        case 25: return (Color("DSD Blue 50%"), Color(UIColor.systemGroupedBackground))
-        case 0:  return (Color("DSD Blue 25%"), Color(UIColor.systemGroupedBackground))
-        default: return (Color("DSD Blue 50%"), Color(UIColor.systemGroupedBackground))
+        case 75: return (Color("DSD Blue 87.5%"), Color(UIColor.systemGroupedBackground))
+        case 50: return (Color("DSD Blue 75%"), Color(UIColor.systemGroupedBackground))
+        case 25: return (Color("DSD Blue 62.5%"), Color(UIColor.systemGroupedBackground))
+        case 0:  return (Color("DSD Blue 50%"), Color(UIColor.systemGroupedBackground))
+        default: return (Color("DSD Blue 75%"), Color(UIColor.systemGroupedBackground))
         }
         
     case .normal:

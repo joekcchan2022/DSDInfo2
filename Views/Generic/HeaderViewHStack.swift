@@ -11,51 +11,36 @@ struct HeaderViewHStack: View {
     let groupKey: GroupKey
     @EnvironmentObject var appConfig: AppConfig
 
+    private var themeColor: Color {
+        getColors(for: appConfig.contrast, theme: .normal).backgroundColor
+    }
+
+    private var textColor: Color {
+        getColors(for: appConfig.contrast, theme: .normal).foregroundColor
+    }
+
     var body: some View {
         HStack(spacing: 0) {
-            if #available(iOS 16.0, *) {
-                Text(groupKey.chinese.isEmpty ? groupKey.name : appConfig.enableChinese ? "\(groupKey.name) \(groupKey.chinese)" : groupKey.name)
-                    .font(.subheadline)
-                    .padding(.vertical, 5)
-                    .padding(.horizontal)
-                    .background(
-                        UnevenRoundedRectangle(
-                            topLeadingRadius: 10,
-                            bottomLeadingRadius: 10,
-                            bottomTrailingRadius: 0,
-                            topTrailingRadius: 0
-                        )
-                        .fill(getColors(for: appConfig.contrast, theme: .normal).backgroundColor))
-                    .foregroundColor(getColors(for: appConfig.contrast, theme: .normal).foregroundColor)
-            
-                Text(groupKey.code)
-                    .font(.subheadline)
-                    .padding(.vertical, 5)
-                    .padding(.horizontal)
-                    .background(
-                        UnevenRoundedRectangle(
-                            topLeadingRadius: 0,
-                            bottomLeadingRadius: 0,
-                            bottomTrailingRadius: 10,
-                            topTrailingRadius: 10
-                        )
-                        .fill(getColors(for: appConfig.contrast, theme: .normal).backgroundColor.opacity(0.5)))
-                    .foregroundColor(Color(.secondaryLabel))
-            } else {
-                Text(groupKey.chinese.isEmpty ? groupKey.name : appConfig.enableChinese ? "\(groupKey.name) \(groupKey.chinese)" : groupKey.name)
-                    .font(.subheadline)
-                    .padding(.vertical, 5)
-                    .padding(.horizontal)
-                    .background(RoundedRectangle(cornerRadius: 10).fill(getColors(for: appConfig.contrast, theme: .normal).backgroundColor))
-                    .foregroundColor(getColors(for: appConfig.contrast, theme: .normal).foregroundColor)
-                Text(groupKey.code)
-                    .font(.subheadline)
-                    .padding(.vertical, 5)
-                    .padding(.horizontal)
-                    .background(RoundedRectangle(cornerRadius: 10).fill(getColors(for: appConfig.contrast, theme: .normal).backgroundColor).opacity(0.5))
-                    .foregroundColor(Color(.secondaryLabel))
-            }
+            // --- Part A ---
+            Text(groupKey.chinese.isEmpty ? groupKey.name : appConfig.enableChinese ? "\(groupKey.name) \(groupKey.chinese)" : groupKey.name)
+                .font(.subheadline)
+                .padding(.vertical, 5)
+                .padding(.horizontal)
+                .foregroundColor(textColor)
+                .frame(maxHeight: .infinity) // Fill container height if Part B expands
+                .background(themeColor)
+
+            // --- Part B ---
+            Text(groupKey.code)
+                .font(.headline)
+                .padding(.vertical, 5)
+                .padding(.horizontal)
+                .foregroundColor(Color(.secondaryLabel))
+                .frame(maxHeight: .infinity) // Fill container height when Part A wraps
+                .background(themeColor.opacity(0.5))
         }
+        .fixedSize(horizontal: false, vertical: true) // Prevents infinite vertical stretching
+        .clipShape(RoundedRectangle(cornerRadius: 10)) // Clips the outer corners cleanly across iOS versions
         .padding(.trailing)
     }
 }
