@@ -19,9 +19,27 @@ This application was developed by K.C. Chan, Joe, CSA5/CS, dated September 27, 2
 | 1.1.2 | 20260612 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | June 12, 2026 | Renewed Distribution Certificate and Provisioning Profile |
 | 1.3.0 | 20260130 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | January 30, 2026 |  SharePoint Subscription Edition (SPSE), Liquid Glass GUI, Mutual Authentication, Contrast Control |
 | 1.3.2 | 20260728 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | July 28, 2026 | Provisioning Profile Updated |
+| 1.3.2 | 20260729 | iOS 14.0 | K.C. Chan, Joe, CSSA7/CS | July 29, 2026 | Updated Colors |
 |   |   |   |   |   |   |
 
 # About Screen
 
-![About Screen](img/DSDInfo_1.1.2_20260612.png)
+![About Screen](img/DSDInfo_1.3.2_20260728.png)
 
+
+# Provisioning Profiles
+
+## Local File System
+
+You might need to remove outdated provisioning profiles manually.
+
+``` bash
+cd ~/Library/Developer/Xcode/UserData/Provisioning\ Profiles
+rm *
+```
+
+## Check Expiration Date for Provisioning Profile
+
+``` bash
+unzip -p DSDInfo.ipa "Payload/*.app/embedded.mobileprovision" | security cms -D | grep -A 1 "ExpirationDate"
+```
